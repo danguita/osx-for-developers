@@ -2,6 +2,57 @@
 
 After having maintained [this gist](https://gist.github.com/danguita/6242852) with a bunch of [stargazers](https://gist.github.com/danguita/6242852/stargazers), I'd like to let people contribute here. Feel free to pull request!
 
+## Table of Contents
+
+- [Command Line Tools](#command-line-tools)
+- [Homebrew](#homebrew)
+- [Dropbox](#dropbox)
+- [Google Drive](#google-drive)
+- [Google Chrome](#google-chrome)
+- [iTerm2](#iterm2)
+- [Git](#git)
+- [Ack](#ack)
+- [Grep](#grep)
+- [Perl](#perl)
+- [Python](#python)
+- [Freetype](#freetype)
+- [Curl](#curl)
+- [Bash](#bash)
+- [Findutils](#findutils)
+- [GNU tar](#gnu-tar)
+- [GNU sed](#gnu-sed)
+- [GnuPG](#gnupg)
+- [ZSH](#zsh)
+- [Vim](#vim)
+- [Htop](#htop)
+- [Exuberant Ctags](#exuberant-ctags)
+- [Ranger](#ranger)
+- [Gist](#gist-client)
+- [Tmux](#tmux)
+- [Rainbarf](#rainbarf)
+- [Docker](#docker)
+- [Postgresql](#postgresql)
+- [MySQL](#mysql)
+- [Elasticsearch](#elasticsearch)
+- [Redis](#redis)
+- [Capybara](#capybara-dependencies)
+- [Imagemagick](#imagemagick)
+- [Ghostscript](#ghostscript)
+- [Weechat](#weechat)
+- [Twitter](#twitter-client)
+- [Livestreamer](#livestreamer)
+- [Ruby](#ruby)
+- [Nodejs](#nodejs)
+- [Bower](#bower)
+- [VirtualBox](#virtualbox)
+- [Vagrant](#vagrant)
+- [Packer](#packer)
+- [X11](#x11)
+- [Java runtime](#java-runtime)
+- [Microsoft IE OVA images](#microsoft-ie-ova-images)
+
+- - -
+
 ## The Checklist
 
 ### Command Line Tools
@@ -181,14 +232,7 @@ brew install ctags
 brew install ranger
 ```
 
-### Notifications
-
-```
-brew install terminal-notifier
-```
-
 ### Gist client
-
 
 ```
 brew install gist
@@ -251,13 +295,13 @@ ARCHFLAGS="-arch x86_64" gem install pg
 brew install mysql
 ```
 
-### ElasticSearch
+### Elasticsearch
 
 ```
 brew install elasticsearch
 ```
 
-#### ElasticSearch-head plugin
+#### Elasticsearch-head plugin
 
 ```
 /usr/local/Cellar/elasticsearch/0.90.3/bin/plugin -install mobz/elasticsearch-head
@@ -276,11 +320,10 @@ brew install redis
 brew install qt
 ```
 
-### Imagemagick / Ghostscript
+### Imagemagick
 
 ```
 brew install imagemagick --disable-openmp --build-from-source
-brew install gs
 ```
 
 #### libMagick: Dynamic libraries
@@ -290,19 +333,25 @@ cd /usr/local/Cellar/imagemagick/6.8.6-3/lib
 ln -s libMagick++-6.Q16.1.dylib libMagick++.dylib
 ```
 
-### Weechat (w/ Perl and Ruby support)
+### Ghostscript
+
+```
+brew install gs
+```
+
+### Weechat
 
 ```
 brew install weechat --with-perl --with-ruby
 ```
 
-#### Weechat: Scripts
+#### Weechat Scripts
 
 ```
 /script install buffers.pl beep.pl
 ```
 
-### TOR (SASL authentication)
+#### TOR
 
 ```
 brew install tor
@@ -313,7 +362,7 @@ brew install tor
 - http://www.weechat.org/files/doc/stable/weechat_user.en.html#irc_sasl_authentication
 - http://freenode.net/irc_servers.shtml#tor
 
-### Twitter client (CLI)
+### Twitter client
 
 ```
 easy_install -U rainbowstream
@@ -325,13 +374,13 @@ easy_install -U rainbowstream
 rainbowstream -iot
 ```
 
-### Twitch streaming like a boss
+### Livestreamer
 
 ```
 easy_install -U livestreamer
 ```
 
-### Ruby versioning: Chruby
+### Ruby
 
 ```
 brew install chruby
@@ -397,7 +446,7 @@ brew tap homebrew/binary
 brew install packer
 ```
 
-### XQuartz/X11 support
+### X11
 
 ```
 brew cask install xquartz
@@ -418,3 +467,4 @@ curl -O http://virtualization.modern.ie/vhd/IEKitV1_Final/VirtualBox/OSX/IE8_Win
 curl -O http://virtualization.modern.ie/vhd/IEKitV1_Final/VirtualBox/OSX/IE9_Win7.zip
 curl -O http://virtualization.modern.ie/vhd/IEKitV1_Final/VirtualBox/OSX/IE10_Win8.ova.zip
 ```
+
