@@ -317,7 +317,8 @@ brew install redis
 ### Capybara dependencies
 
 ```
-brew install qt
+brew install qt5
+brew link --force qt5
 ```
 
 ### Imagemagick
