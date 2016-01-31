@@ -16,6 +16,7 @@ After having maintained [this gist](https://gist.github.com/danguita/6242852/rev
 - [Perl](#perl)
 - [Python](#python)
 - [Freetype](#freetype)
+- [Fonts](#fonts)
 - [Curl](#curl)
 - [Bash](#bash)
 - [Findutils](#findutils)
@@ -159,6 +160,12 @@ pip install --upgrade pip
 ```
 brew install freetype
 ln -s /usr/local/opt/freetype/include/freetype2 /usr/local/include/freetype
+```
+
+### Fonts
+
+```
+brew cask install caskroom/fonts/font-hack # Hack
 ```
 
 ### Curl
