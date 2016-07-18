@@ -26,6 +26,7 @@ After having maintained [this gist](https://gist.github.com/danguita/6242852/rev
 - [ZSH](#zsh)
 - [Vim](#vim)
 - [Htop](#htop)
+- [ngrok](#ngrok)
 - [Exuberant Ctags](#exuberant-ctags)
 - [Ranger](#ranger)
 - [Gist](#gist-client)
@@ -225,6 +226,14 @@ brew linkapps
 
 ```
 brew install htop
+```
+
+### ngrok
+
+```
+brew install ngrok2
+brew link --overwrite ngrok2 # In case ngrok 1.x is already installed
+ngrok http 3000 # To start tunneling the HTTP port 3000
 ```
 
 ### Exuberant Ctags
