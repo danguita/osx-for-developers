@@ -109,25 +109,25 @@ brew tap homebrew/versions
 ### Dropbox
 
 ```
-brew cask install dropbpox
+brew install --cask dropbpox
 ```
 
 ### Google Drive
 
 ```
-brew cask install google-drive
+brew install --cask google-drive
 ```
 
 ### Google Chrome
 
 ```
-brew cask install google-chrome
+brew install --cask google-chrome
 ```
 
 ### iTerm2
 
 ```
-brew cask install iterm2
+brew install --cask iterm2
 ```
 
 ### Git
@@ -176,7 +176,7 @@ ln -s /usr/local/opt/freetype/include/freetype2 /usr/local/include/freetype
 ### Fonts
 
 ```
-brew cask install caskroom/fonts/font-hack # Hack
+brew install --cask caskroom/fonts/font-hack # Hack
 ```
 
 ### Curl
@@ -227,7 +227,7 @@ sudo mv /etc/zshenv /etc/zprofile # system-wide environment settings
 
 ```
 brew install vim
-brew cask install macvim
+brew install --cask macvim
 mkdir ~/Applications
 brew linkapps
 ```
@@ -451,13 +451,13 @@ npm install bower
 ### VirtualBox
 
 ```
-brew cask install virtualbox
+brew install --cask virtualbox
 ```
 
 ### Vagrant
 
 ```
-brew cask install vagrant
+brew install --cask vagrant
 ```
 
 #### Keep VirtualBox Guest Additions updated
@@ -476,7 +476,7 @@ brew install packer
 ### X11
 
 ```
-brew cask install xquartz
+brew install --cask xquartz
 ```
 
 ### Java Runtime
