@@ -9,7 +9,6 @@ After having maintained [this gist](https://gist.github.com/danguita/6242852/rev
 - [Homebrew](#homebrew)
   - [Homebrew dupes](#homebrew-dupes)
   - [Homebrew versions](#homebrew-versions)
-  - [Homebrew Cask (http://caskroom.io/)](#homebrew-cask-httpcaskroomio)
 - [Dropbox](#dropbox)
 - [Google Drive](#google-drive)
 - [Google Chrome](#google-chrome)
@@ -105,12 +104,6 @@ brew tap homebrew/dupes
 
 ```
 brew tap homebrew/versions
-```
-
-#### Homebrew Cask (http://caskroom.io/)
-
-```
-brew install caskroom/cask/brew-cask
 ```
 
 ### Dropbox
