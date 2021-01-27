@@ -1,11 +1,15 @@
-# Set up your shiny OS X for software development
+# Set up your shiny OS X for software development <!-- omit in toc -->
 
 After having maintained [this gist](https://gist.github.com/danguita/6242852/revisions) with a bunch of [stargazers](https://gist.github.com/danguita/6242852/stargazers), I'd like to let people contribute here. Feel free to pull request!
 
-## Table of Contents
+## Table of Contents <!-- omit in toc -->
 
 - [Command Line Tools](#command-line-tools)
+  - [Command Line Tools (CLI)](#command-line-tools-cli)
 - [Homebrew](#homebrew)
+  - [Homebrew dupes](#homebrew-dupes)
+  - [Homebrew versions](#homebrew-versions)
+  - [Homebrew Cask (http://caskroom.io/)](#homebrew-cask-httpcaskroomio)
 - [Dropbox](#dropbox)
 - [Google Drive](#google-drive)
 - [Google Chrome](#google-chrome)
@@ -29,33 +33,46 @@ After having maintained [this gist](https://gist.github.com/danguita/6242852/rev
 - [ngrok](#ngrok)
 - [Exuberant Ctags](#exuberant-ctags)
 - [Ranger](#ranger)
-- [Gist](#gist-client)
+- [Gist client](#gist-client)
 - [Tmux](#tmux)
 - [Rainbarf](#rainbarf)
 - [Docker](#docker)
+  - [Docker hub](#docker-hub)
 - [Postgresql](#postgresql)
+  - [Postgresql: Avoid passing a host](#postgresql-avoid-passing-a-host)
+  - [Postgresql: Install `pg` gem on x86_64](#postgresql-install-pg-gem-on-x86_64)
 - [MySQL](#mysql)
 - [Elasticsearch](#elasticsearch)
+  - [Elasticsearch-head plugin](#elasticsearch-head-plugin)
 - [Redis](#redis)
-- [Capybara](#capybara-dependencies)
+- [Capybara dependencies](#capybara-dependencies)
 - [Imagemagick](#imagemagick)
+  - [libMagick: Dynamic libraries](#libmagick-dynamic-libraries)
 - [Ghostscript](#ghostscript)
 - [Weechat](#weechat)
-- [Twitter](#twitter-client)
+  - [Weechat Scripts](#weechat-scripts)
+  - [TOR](#tor)
+  - [Set up IRC SASL:](#set-up-irc-sasl)
+- [Twitter client](#twitter-client)
+  - [Rainbowstream: Run with `image-on-term`](#rainbowstream-run-with-image-on-term)
 - [Livestreamer](#livestreamer)
 - [Ruby](#ruby)
+  - [Install rubies](#install-rubies)
 - [Nodejs](#nodejs)
-- [Bower](#bower)
+  - [npm](#npm)
+  - [nvm](#nvm)
+- [bower](#bower)
 - [VirtualBox](#virtualbox)
 - [Vagrant](#vagrant)
+  - [Keep VirtualBox Guest Additions updated](#keep-virtualbox-guest-additions-updated)
 - [Packer](#packer)
 - [X11](#x11)
-- [Java runtime](#java-runtime)
+- [Java Runtime](#java-runtime)
 - [Microsoft IE OVA images](#microsoft-ie-ova-images)
 
 - - -
 
-## The Checklist
+## The Checklist <!-- omit in toc -->
 
 ### Command Line Tools
 
